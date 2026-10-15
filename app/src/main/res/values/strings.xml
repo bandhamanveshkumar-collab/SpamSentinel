@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SpamSentinel</string>
+    <string name="shortcut_checker_short">Live Checker</string>
+    <string name="shortcut_checker_long">SpamSentinel Live Checker</string>
+</resources>

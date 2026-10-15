@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="live_checker"
+        android:enabled="true"
+        android:icon="@drawable/ic_shield_tile"
+        android:shortcutShortLabel="@string/shortcut_checker_short"
+        android:shortcutLongLabel="@string/shortcut_checker_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.spamsentinel.app"
+            android:targetClass="com.spamsentinel.app.MainActivity">
+            <extra android:name="route" android:value="checker" />
+        </intent>
+    </shortcut>
+</shortcuts>
